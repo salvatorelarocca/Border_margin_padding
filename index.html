@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bordi/Margini/Padding</title>
+</head>
+
+<body>
+    <h2>Bordi</h2>
+    <p> I bordi sono la linea che circonda il contenuto dell'elemento HTML. È come il confine del quadro che hai
+        disegnato. Puoi scegliere lo stile, lo spessore e il colore del bordo. Nel nostro esempio il contenuto è la
+        frase all'interno del tag p e il bordo ha il colore arancione.</p>
+    <h3>Slider del bordo</h3>
+    <span>BORDER</span><span id="num_bor" class="num">1000px</span><input onchange="" oninput="" type="range" id="bordo"
+        name="" value="50" min="0" max="1000">
+    <h2>Padding</h2>
+    <p>Il padding è lo spazio vuoto tra il bordo dell'elemento HTML e il contenuto all'interno. È come il margine di
+        sicurezza all'interno del quadro dove disegni. Puoi decidere quanto spazio vuoi avere tra il contenuto del tuo
+        elemento e il suo bordo.</p>
+    <h3>Sliders del padding</h3>
+    <span>TOP</span><span id="num_top" class="num">1000px</span><input onchange="" oninput="" type="range" id="top_p"
+        name="" value="50" min="0" max="1000">
+    <span>BOTTOM</span><span id="num_bot" class="num">1000px</span><input onchange="" oninput="" type="range" id="bot_p"
+        name="" value="50" min="0" max="1000">
+    <span>LEFT</span><span id="num_lef" class="num">1000px</span><input onchange="" oninput="" type="range" id="lef_p"
+        name="" value="50" min="0" max="1000">
+    <span>RIGHT</span><span id="num_rig" class="num">1000px</span><input onchange="" oninput="" type="range" id="rig_p"
+        name="" value="50" min="0" max="1000">
+    <h2>Margini</h2>
+    <p>I margini sono lo spazio vuoto intorno al bordo esterno dell'elemento HTML. È come l'area intorno al quadro sul
+        foglio di carta. Puoi decidere quanto spazio vuoi lasciare tra il tuo elemento e gli altri elementi vicini.</p>
+    <h3>Sliders del margin</h3>
+    <span>TOP</span><span id="num_top_m" class="num">1000px</span><input onchange="" oninput="" type="range" id="top_m"
+        name="" value="50" min="0" max="1000">
+    <span>BOTTOM</span><span id="num_bot_m" class="num">1000px</span><input onchange="" oninput="" type="range"
+        id="bot_m" name="" value="50" min="0" max="1000">
+    <span>LEFT</span><span id="num_lef_m" class="num">1000px</span><input onchange="" oninput="" type="range" id="lef_m"
+        name="" value="50" min="0" max="1000">
+    <span>RIGHT</span><span id="num_rig_m" class="num">1000px</span><input onchange="" oninput="" type="range" id="rig_m"
+        name="" value="50" min="0" max="1000">
+
+    <h2>Height/Width</h2>
+    <p>...</h3>
+        <span>Height</span><span id="num_h" class="num">1000px</span><input onchange="" oninput="" type="range"
+            id="height" name="" value="150" min="0" max="1200">
+        <span>Width</span><span id="num_w" class="num">1000px</span><input onchange="" oninput="" type="range" id="width"
+            name="" value="800" min="0" max="1200">
+        <br>
+        <input type="radio" id="radio1" name="opzione" value="Auto" checked>
+        <label for="radio1">Auto</label>
+        <input type="radio" id="radio2" name="opzione" value="Length">
+        <label for="radio2">Length</label><br>
+        <hr>
+    <div class="container">
+        <p id="p0">"Lorem ipsum" è un testo fittizio comunemente utilizzato nell'industria tipografica e nella
+            progettazione
+            grafica come riempitivo per illustrare la presentazione visiva di un documento o una pagina web senza
+            distrarre
+            con il contenuto effettivo. Ha origini nel testo latino "De finibus bonorum et malorum" di Cicerone, ma la
+            versione moderna è stata adattata e modificata nel corso degli anni.</p>
+    </div>
+    <hr>
+    <script src="pad_marg.js"></script>
+</body>
+
+</html>
